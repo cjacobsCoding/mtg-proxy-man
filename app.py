@@ -74,7 +74,7 @@ class DownloadWorker(QThread):
             if "image_uris" not in card:
                 continue
             
-            img = card["image_uris"].get("art_crop")
+            img = card["image_uris"].get("normal")
             if not img:
                 continue
             
