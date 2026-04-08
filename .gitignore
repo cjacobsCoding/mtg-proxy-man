@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+dist/
+build/
+*.spec
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
